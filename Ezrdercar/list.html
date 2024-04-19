@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ezrder Car</title>
-
+    <title>Car List</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -25,7 +24,6 @@
         rel="stylesheet">
     <!-- fonst -->
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
@@ -62,110 +60,12 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Log In</a>
                     </li>
-                    <button class="btn btn-rent btn-primary btn-outline-success" type="submit"><b>Rent Now</b></button>
+                    <button class="btn btn-rent btn-outline-success" type="submit"><b>Rent Now</b></button>
                 </form>
             </div>
         </div>
     </nav>
     <!-- Header End -->
-
-    <!-- section hero -->
-    <section class="hero-sec">
-        <div class="container">
-            <div class="text-center hero-box">
-                <h1><b>Best car rental in Canada</b></h1>
-                <p>Enjoy a hassle-free experience.</p>
-            </div>
-            <div class="row main-box-rent">
-                <div class="col-lg-6"></div>
-                <div class="col-lg-6 col-md-12 w-50 main_rent">
-                    <div class="from_boxs">
-                        <h2><b>Rent a car?</b></h2>
-                        <form action="">
-                            <div class="row mt-3 date-box">
-                                <div class="col-6 date-boxs">
-                                    <p class="d-flex flex-column mb-0">
-                                        <label><b>Pick-up*</b></label>
-                                        <div class="date_time_box">
-                                           <input type="date" id="birthday" name="birthday">
-                                        </div>
-                                        <!-- <input type="datetime-local" class="date_time_box"> -->
-                                    </p>
-                                </div>
-                                <div class="col-6 date-boxs">
-                                    <p class="d-flex flex-column mb-0">
-                                        <label><b>Return*</b></label>
-                                        <div class="date_time_box">
-                                            <input type="date" id="birthday" name="birthday">
-                                        </div>
-                                    </p>
-                                </div>
-                            </div>
-
-                            <label class="mt-4"><b>Vehicle Type</b></label>
-                            <select name="cars" id="cars" class="menu" placeholder="Vehicle Type">
-                                <option value="volvo">Vehicle Type</option>
-                                <option value="volvo">Volvo</option>
-                                <option value="saab">Saab</option>
-                                <option value="opel">Opel</option>
-                                <option value="audi">Audi</option>
-                            </select>
-
-                            <div class="mt-5">
-                                <button type="button" class="btn btn-primary w-100 hero-buttobox"><b>Browse
-                                        Vehicles</b></button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- section hero -->
-
-    <!-- Book Online -->
-
-    <section class="book-sec">
-        <div class="container">
-            <div class="main-titile text-center">
-                <h2>Book Online in just a few steps</h2>
-            </div>
-            <p class="text-center">
-                <img src="img/step.png" alt="" class="img-fluid w-75">
-            </p>
-
-            <div class="row mt-5 step_boxs">
-                <div class="col-lg-3 col-md-4 col-sm-12 step_main-box">
-                    <p><b>Choose Vehicle</b></p>
-                    <p>Browse our wide selection of vehicles and pick the one that suits you needs.</p>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-12 step_main-box">
-                    <p><b>Make Reservation</b></p>
-                    <p>Enter your travel details and secure your reservation with a few clicks.</p>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-12 step_main-box">
-                    <p><b>Pick Up</b></p>
-                    <p>Arrive at our location and collect your vehicle hassle free.</p>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-12 step_main-box">
-                    <p><b>Enjoy Your Ride</b></p>
-                    <p>Hit the road and experience the freedom of driving your chosen vehicle.</p>
-                </div>
-            </div>
-
-            <div class="">
-                <div class="text-center mt-4">
-
-                    <button class="btn start-btn" type="submit">Start Your Journey <i
-                            class='fa fa-arrow-right'></i></button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Book Online -->
 
     <!-- Our Vehicles -->
     <section class="vehicle-sec">
@@ -195,8 +95,9 @@
                         </li>
                     </ul>
 
-                    <div class="">
-                        <a href="" class="text-decoration-none">See All <i class="bi bi-arrow-right"></i></a>
+                    <div class="d-flex align-items-center serch_box">
+                        <input type="search" class="serch-input">
+                        <i class="bi bi-search"></i>
                     </div>
                 </div>
             </div>
@@ -214,7 +115,7 @@
                                     <div class="card">
                                         <p><b>Swift Cruiser</b></p>
                                         <img class="card-img-top img-fluid" src="img/car1.png" alt="Card image cap">
-                                       
+                                        
                                         <div class="card-block d-flex justify-content-between align-items-center mt-3">
                                             <p class="card-text mb-0"><b class="doller-text">CAD50</b>/day</p>
                                             <a href="#" data-name="Orange" data-price="0.5"
@@ -239,7 +140,7 @@
                                     <div class="card">
                                         <p><b>Blaze Sport</b></p>
                                         <img class="card-img-top img-fluid" src="img/car3.png" alt="Card image cap">
-                                       
+                                        
                                         <div class="card-block d-flex justify-content-between align-items-center mt-3">
                                             <p class="card-text mb-0"><b class="doller-text">CAD80</b>/day</p>
                                             <a href="#" data-name="Orange" data-price="0.5"
@@ -251,7 +152,7 @@
                                     <div class="card">
                                         <p><b>Crest Deluxe</b></p>
                                         <img class="card-img-top img-fluid" src="img/car4.png" alt="Card image cap">
-                                       
+                                        
                                         <div class="card-block d-flex justify-content-between align-items-center mt-3">
                                             <p class="card-text mb-0"><b class="doller-text">CAD55</b>/day</p>
                                             <a href="#" data-name="Orange" data-price="0.5"
@@ -293,7 +194,7 @@
                                     <div class="card">
                                         <p><b>Aurora Eco</b></p>
                                         <img class="card-img-top img-fluid" src="img/car7.png" alt="Card image cap">
-                                      
+                                        
                                         <div class="card-block d-flex justify-content-between align-items-center mt-3">
                                             <p class="card-text mb-0"><b class="doller-text">CAD55</b>/day</p>
                                             <a href="#" data-name="Orange" data-price="0.5"
@@ -327,120 +228,7 @@
                                     <div class="card">
                                         <p>Swift Cruiser</p>
                                         <img class="card-img-top img-fluid" src="img/car1.png" alt="Card image cap">
-                                       
-                                        <div class="card-block d-flex justify-content-between align-items-center mt-3">
-                                            <p class="card-text mb-0"><b class="doller-text">CAD50</b>/day</p>
-                                            <a href="#" data-name="Orange" data-price="0.5"
-                                                class="add-to-cart btn btn-primary">Rent Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
-                                    <div class="card">
-                                        <p>Horizon Explorer</p>
-                                        <img class="card-img-top img-fluid" src="img/car2.png" alt="Card image cap">
-                                       
-                                        <div class="card-block d-flex justify-content-between align-items-center mt-3">
-                                            <p class="card-text mb-0"><b class="doller-text">CAD60</b>/day</p>
-                                            <a href="#" data-name="Orange" data-price="0.5"
-                                                class="add-to-cart btn btn-primary">Rent Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
-                                    <div class="card">
-                                        <p><b>Blaze Sport</b></p>
-                                        <img class="card-img-top img-fluid" src="img/car3.png" alt="Card image cap">
-                                       
-                                        <div class="card-block d-flex justify-content-between align-items-center mt-3">
-                                            <p class="card-text mb-0"><b class="doller-text">CAD80</b>/day</p>
-                                            <a href="#" data-name="Orange" data-price="0.5"
-                                                class="add-to-cart btn btn-primary">Rent Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
-                                    <div class="card">
-                                        <p><b>Crest Deluxe</b></p>
-                                        <img class="card-img-top img-fluid" src="img/car4.png" alt="Card image cap">
-                                       
-                                        <div class="card-block d-flex justify-content-between align-items-center mt-3">
-                                            <p class="card-text mb-0"><b class="doller-text">CAD55</b>/day</p>
-                                            <a href="#" data-name="Orange" data-price="0.5"
-                                                class="add-to-cart btn btn-primary">Rent Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-lg-3 col-sm-12 col-md-6 d-flex justify-content-center">
-                                    <div class="card">
-                                        <p>Nova Turbo</p>
-                                        <img class="card-img-top img-fluid" src="img/car5.png" alt="Card image cap">
-                                       
-                                        <div class="card-block d-flex justify-content-between align-items-center mt-3">
-                                            <p class="card-text mb-0"><b class="doller-text">CAD70</b>/day</p>
-                                            <a href="#" data-name="Orange" data-price="0.5"
-                                                class="add-to-cart btn btn-primary">Rent Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-sm-12 col-md-6 d-flex justify-content-center">
-                                    <div class="card">
-                                        <p>Velocity Jet</p>
-                                        <img class="card-img-top img-fluid" src="img/car6.png" alt="Card image cap">
-                                       
-                                        <div class="card-block d-flex justify-content-between align-items-center mt-3">
-                                            <p class="card-text mb-0"><b class="doller-text">CAD65</b>/day</p>
-                                            <a href="#" data-name="Orange" data-price="0.5"
-                                                class="add-to-cart btn btn-primary">Rent Now</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-lg-3 col-sm-12 col-md-6 d-flex justify-content-center">
-                                    <div class="card">
-                                        <p><b>Aurora Eco</b></p>
-                                        <img class="card-img-top img-fluid" src="img/car7.png" alt="Card image cap">
-                                       
-                                        <div class="card-block d-flex justify-content-between align-items-center mt-3">
-                                            <p class="card-text mb-0"><b class="doller-text">CAD55</b>/day</p>
-                                            <a href="#" data-name="Orange" data-price="0.5"
-                                                class="add-to-cart btn btn-primary">Rent Now</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-lg-3 col-sm-12 col-md-6 d-flex justify-content-center">
-                                    <div class="card">
-                                        <p><b>Stellar Voyager</b></p>
-                                        <img class="card-img-top img-fluid" src="img/car8.png" alt="Card image cap">
-                                      
-                                        <div class="card-block d-flex justify-content-between align-items-center mt-3">
-                                            <p class="card-text mb-0"><b class="doller-text">CAD75</b>/day</p>
-                                            <a href="#" data-name="Orange" data-price="0.5"
-                                                class="add-to-cart btn btn-primary">Rent Now</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                            <!-- row-->
-                        </div>
-
-                        <div class="tab-pane fade" id="suvSection" role="tabpanel" aria-lRobotoledby="suv">
-                            <div class="row">
-                                <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
-                                    <div class="card">
-                                        <p>Swift Cruiser</p>
-                                        <img class="card-img-top img-fluid" src="img/car1.png" alt="Card image cap">
-                                       
+                                        
                                         <div class="card-block d-flex justify-content-between align-items-center mt-3">
                                             <p class="card-text mb-0"><b class="doller-text">CAD50</b>/day</p>
                                             <a href="#" data-name="Orange" data-price="0.5"
@@ -465,7 +253,7 @@
                                     <div class="card">
                                         <p><b>Blaze Sport</b></p>
                                         <img class="card-img-top img-fluid" src="img/car3.png" alt="Card image cap">
-                                       
+                                        
                                         <div class="card-block d-flex justify-content-between align-items-center mt-3">
                                             <p class="card-text mb-0"><b class="doller-text">CAD80</b>/day</p>
                                             <a href="#" data-name="Orange" data-price="0.5"
@@ -476,7 +264,8 @@
                                 <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
                                     <div class="card">
                                         <p><b>Crest Deluxe</b></p>
-                                       
+                                        <img class="card-img-top img-fluid" src="img/car4.png" alt="Card image cap">
+                                        
                                         <div class="card-block d-flex justify-content-between align-items-center mt-3">
                                             <p class="card-text mb-0"><b class="doller-text">CAD55</b>/day</p>
                                             <a href="#" data-name="Orange" data-price="0.5"
@@ -491,7 +280,7 @@
                                     <div class="card">
                                         <p>Nova Turbo</p>
                                         <img class="card-img-top img-fluid" src="img/car5.png" alt="Card image cap">
-                                      
+                                       
                                         <div class="card-block d-flex justify-content-between align-items-center mt-3">
                                             <p class="card-text mb-0"><b class="doller-text">CAD70</b>/day</p>
                                             <a href="#" data-name="Orange" data-price="0.5"
@@ -543,15 +332,17 @@
                                 </div>
 
                             </div>
+                            <!-- row-->
                         </div>
 
-                        <div class="tab-pane fade" id="truckSection" role="tabpanel" aria-lRobotoledby="truck">
+                        <div class="tab-pane fade" id="suvSection" role="tabpanel" aria-lRobotoledby="suv">
                             <div class="row">
                                 <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
                                     <div class="card">
                                         <p>Swift Cruiser</p>
                                         <img class="card-img-top img-fluid" src="img/car1.png" alt="Card image cap">
-                                        <div class="card-block d-flex justify-content-between align-items-center mt-3 mt-3">
+                                        
+                                        <div class="card-block d-flex justify-content-between align-items-center mt-3">
                                             <p class="card-text mb-0"><b class="doller-text">CAD50</b>/day</p>
                                             <a href="#" data-name="Orange" data-price="0.5"
                                                 class="add-to-cart btn btn-primary">Rent Now</a>
@@ -562,7 +353,7 @@
                                     <div class="card">
                                         <p>Horizon Explorer</p>
                                         <img class="card-img-top img-fluid" src="img/car2.png" alt="Card image cap">
-                                       
+                                        
                                         <div class="card-block d-flex justify-content-between align-items-center mt-3">
                                             <p class="card-text mb-0"><b class="doller-text">CAD60</b>/day</p>
                                             <a href="#" data-name="Orange" data-price="0.5"
@@ -575,7 +366,7 @@
                                     <div class="card">
                                         <p><b>Blaze Sport</b></p>
                                         <img class="card-img-top img-fluid" src="img/car3.png" alt="Card image cap">
-                                       
+                                        
                                         <div class="card-block d-flex justify-content-between align-items-center mt-3">
                                             <p class="card-text mb-0"><b class="doller-text">CAD80</b>/day</p>
                                             <a href="#" data-name="Orange" data-price="0.5"
@@ -587,7 +378,7 @@
                                     <div class="card">
                                         <p><b>Crest Deluxe</b></p>
                                         <img class="card-img-top img-fluid" src="img/car4.png" alt="Card image cap">
-                                       
+                                        
                                         <div class="card-block d-flex justify-content-between align-items-center mt-3">
                                             <p class="card-text mb-0"><b class="doller-text">CAD55</b>/day</p>
                                             <a href="#" data-name="Orange" data-price="0.5"
@@ -602,7 +393,7 @@
                                     <div class="card">
                                         <p>Nova Turbo</p>
                                         <img class="card-img-top img-fluid" src="img/car5.png" alt="Card image cap">
-                                      
+                                       
                                         <div class="card-block d-flex justify-content-between align-items-center mt-3">
                                             <p class="card-text mb-0"><b class="doller-text">CAD70</b>/day</p>
                                             <a href="#" data-name="Orange" data-price="0.5"
@@ -615,7 +406,7 @@
                                     <div class="card">
                                         <p>Velocity Jet</p>
                                         <img class="card-img-top img-fluid" src="img/car6.png" alt="Card image cap">
-                                      
+                                        
                                         <div class="card-block d-flex justify-content-between align-items-center mt-3">
                                             <p class="card-text mb-0"><b class="doller-text">CAD65</b>/day</p>
                                             <a href="#" data-name="Orange" data-price="0.5"
@@ -629,7 +420,7 @@
                                     <div class="card">
                                         <p><b>Aurora Eco</b></p>
                                         <img class="card-img-top img-fluid" src="img/car7.png" alt="Card image cap">
-                                      
+                                        
                                         <div class="card-block d-flex justify-content-between align-items-center mt-3">
                                             <p class="card-text mb-0"><b class="doller-text">CAD55</b>/day</p>
                                             <a href="#" data-name="Orange" data-price="0.5"
@@ -643,6 +434,119 @@
                                     <div class="card">
                                         <p><b>Stellar Voyager</b></p>
                                         <img class="card-img-top img-fluid" src="img/car8.png" alt="Card image cap">
+                                        
+                                        <div class="card-block d-flex justify-content-between align-items-center mt-3">
+                                            <p class="card-text mb-0"><b class="doller-text">CAD75</b>/day</p>
+                                            <a href="#" data-name="Orange" data-price="0.5"
+                                                class="add-to-cart btn btn-primary">Rent Now</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="truckSection" role="tabpanel" aria-lRobotoledby="truck">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+                                    <div class="card">
+                                        <p>Swift Cruiser</p>
+                                        <img class="card-img-top img-fluid" src="img/car1.png" alt="Card image cap">
+                                        
+                                        <div class="card-block d-flex justify-content-between align-items-center mt-3">
+                                            <p class="card-text mb-0"><b class="doller-text">CAD50</b>/day</p>
+                                            <a href="#" data-name="Orange" data-price="0.5"
+                                                class="add-to-cart btn btn-primary">Rent Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+                                    <div class="card">
+                                        <p>Horizon Explorer</p>
+                                        <img class="card-img-top img-fluid" src="img/car2.png" alt="Card image cap">
+                                        
+                                        <div class="card-block d-flex justify-content-between align-items-center mt-3">
+                                            <p class="card-text mb-0"><b class="doller-text">CAD60</b>/day</p>
+                                            <a href="#" data-name="Orange" data-price="0.5"
+                                                class="add-to-cart btn btn-primary">Rent Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+                                    <div class="card">
+                                        <p><b>Blaze Sport</b></p>
+                                        <img class="card-img-top img-fluid" src="img/car3.png" alt="Card image cap">
+                                        
+                                        <div class="card-block d-flex justify-content-between align-items-center mt-3">
+                                            <p class="card-text mb-0"><b class="doller-text">CAD80</b>/day</p>
+                                            <a href="#" data-name="Orange" data-price="0.5"
+                                                class="add-to-cart btn btn-primary">Rent Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+                                    <div class="card">
+                                        <p><b>Crest Deluxe</b></p>
+                                        <img class="card-img-top img-fluid" src="img/car4.png" alt="Card image cap">
+                                        
+                                        <div class="card-block d-flex justify-content-between align-items-center mt-3">
+                                            <p class="card-text mb-0"><b class="doller-text">CAD55</b>/day</p>
+                                            <a href="#" data-name="Orange" data-price="0.5"
+                                                class="add-to-cart btn btn-primary">Rent Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-3 col-sm-12 col-md-6 d-flex justify-content-center">
+                                    <div class="card">
+                                        <p>Nova Turbo</p>
+                                        <img class="card-img-top img-fluid" src="img/car5.png" alt="Card image cap">
+                                       
+                                        <div class="card-block d-flex justify-content-between align-items-center mt-3">
+                                            <p class="card-text mb-0"><b class="doller-text">CAD70</b>/day</p>
+                                            <a href="#" data-name="Orange" data-price="0.5"
+                                                class="add-to-cart btn btn-primary">Rent Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-sm-12 col-md-6 d-flex justify-content-center">
+                                    <div class="card">
+                                        <p>Velocity Jet</p>
+                                        <img class="card-img-top img-fluid" src="img/car6.png" alt="Card image cap">
+                                       
+                                        <div class="card-block d-flex justify-content-between align-items-center mt-3">
+                                            <p class="card-text mb-0"><b class="doller-text">CAD65</b>/day</p>
+                                            <a href="#" data-name="Orange" data-price="0.5"
+                                                class="add-to-cart btn btn-primary">Rent Now</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-3 col-sm-12 col-md-6 d-flex justify-content-center">
+                                    <div class="card">
+                                        <p><b>Aurora Eco</b></p>
+                                        <img class="card-img-top img-fluid" src="img/car7.png" alt="Card image cap">
+                                       
+                                        <div class="card-block d-flex justify-content-between align-items-center mt-3">
+                                            <p class="card-text mb-0"><b class="doller-text">CAD55</b>/day</p>
+                                            <a href="#" data-name="Orange" data-price="0.5"
+                                                class="add-to-cart btn btn-primary">Rent Now</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-3 col-sm-12 col-md-6 d-flex justify-content-center">
+                                    <div class="card">
+                                        <p><b>Stellar Voyager</b></p>
+                                        <img class="card-img-top img-fluid" src="img/car8.png" alt="Card image cap">
+                                       
                                         <div class="card-block d-flex justify-content-between align-items-center mt-3">
                                             <p class="card-text mb-0"><b class="doller-text">CAD75</b>/day</p>
                                             <a href="#" data-name="Orange" data-price="0.5"
@@ -662,215 +566,6 @@
         <!-- container-->
     </section>
     <!-- Our Vehicles -->
-
-    <!-- Why Choose Us -->
-    <section class="Choose-sec">
-        <div class="main-titile text-center">
-            <h2>Why Choose Us</h2>
-        </div>
-        <div class="choose_div">
-            <div class="container">
-                <div class="row  justify-content-around">
-
-                    <div class="col-lg-3 col-md-4 col-sm-12 mb-3 choose-box flexible">
-                        <p>
-                            <img src="img/flexible_icon.png" alt="" style="width: 50px; height:50px">
-                        </p>
-                        <p class="text-primary choose_titile"><b>Flexible Rentals</b></p>
-                        <div class="d-flex flex-column w-50">
-                            <img src="img/Stroke_line.png" alt="" class="mb-3">
-                        </div>
-                        <p class="choose-text">Enjoy the freedom to tailor your rental to your needs, with options for short-term
-                            and long-term agreements.</p>
-                    </div>
-
-                    <div class="col-lg-3 col-md-5 col-sm-12 mb-3 choose-box hidden">
-                        <p>
-                            <img src="img/hidden.png" alt="" style="width: 50px; height:50px">
-                        </p>
-                        <p class="text-primary choose_titile"><b>No Hidden Fees</b></p>
-                        <div class="d-flex flex-column w-50">
-                            <img src="img/Stroke_line.png" alt="" class="mb-3">
-                        </div>
-                        <p class="choose-text">Transparency is our policy. Say goodbye to surprises with our straightforward
-                            pricing and no hidden charges.</p>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-12 mb-3 choose-box price">
-                        <p>
-                            <img src="img/price.png" alt="" style="width: 50px; height:50px">
-                        </p>
-                        <p class="text-primary choose_titile"><b>Price Match Guarantee</b></p>
-                        <div class="d-flex flex-column w-50">
-                            <img src="img/Stroke_line.png" alt="" class="mb-3">
-                        </div>
-                        <p class="choose-text">Rest assured knowing you're getting the best deal. We'll match any competitor's
-                            price for identical rentals.</p>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-12 mb-3 choose-box clen">
-                        <p>
-                            <img src="img/clean_i.png" alt="" style="width: 50px; height:50px">
-                        </p>
-                        <p class="text-primary choose_titile"><b>Clean & Powerful Cars</b></p>
-                        <div class="d-flex flex-column w-50">
-                            <img src="img/Stroke_line.png" alt="" class="mb-3">
-                        </div>
-                        <p class="choose-text">Drive with confidence in our maintained fleet of clean and powerful vehicles,
-                            ensuring a smooth and comfortable journey.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Why Choose Us -->
-
-    <!-- section About -->
-    <section class="about-sec text-center">
-        <div class="container">
-            <div class="main-titile text-center d-flex flex-column align-items-center">
-                <h2>About Us</h2>
-                <p class="about-p"><b>EZRYDER Transport,Inc.</b>, stands as a beacon of light for car rental industry,
-                    an epitome of relentless dedication and unwavering commitment. We were driven by the desire to offer
-                    affordable, reliable and flexible car rental services to match the diverse needs of Canadians and
-                    tourists alike, and to augment the transportation industry.</p>
-            </div>
-        </div>
-        <div class="d-flex flex-column align-items-center text-center">
-        </div>
-        <div class="mt-4 position-relative">
-            <img src="img/about-us-img.png" alt="" class="img-fluid abut-img">
-        </div>
-        <div class="container">
-            <div class="about-cont">
-                <p class=""><i class="bi bi-geo-alt-fill"></i> 330 15th Street East Prince Albert, Saskatchewan, S6V
-                    1G2</p>
-               
-            </div>
-        </div>
-    </section>
-    <!-- section About -->
-
-    <!-- FAQs -->
-
-    <section class="faqs-sec">
-        <div class="container faqs_div">
-            <div class="main-titile text-center">
-                <h2>FAQs</h2>
-            </div>
-
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            <b>How to rent a car?</b>
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Renting a car is easy! Simply browse our available vehicles, select your desired rental
-                            period, and complete the booking process online. You can also contact our customer support
-                            for assistance.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <b>What are the requirements?</b>
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            To rent a car, you must be at least 21 years old and hold a valid driver's license.
-                            Additional requirements may vary depending on the specific rental location and vehicle type.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <b>Can I modify my reservation?</b>
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Yes, you can modify your reservation. Simply log in to your account or contact our customer
-                            support for assistance. Please note that modifications may be subject to availability and
-                            additional charges.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingfor">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapsefor" aria-expanded="false" aria-controls="collapsefor">
-                            <b>What is the cancellation policy?</b>
-                        </button>
-                    </h2>
-                    <div id="collapsefor" class="accordion-collapse collapse" aria-labelledby="headingfor"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Our cancellation policy allows for free cancellations up to 24 hours before the scheduled
-                            pick-up time. Cancellations made within 24 hours may be subject to a fee.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingfive">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
-                            <b>Do you offer insurance?</b>
-                        </button>
-                    </h2>
-                    <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Yes, we offer optional insurance coverage for your rental vehicle. You can choose from
-                            different coverage options during the booking process or contact our customer support for
-                            more information.
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQs -->
-
-    <!-- Still have questions? -->
-
-    <section class="question-sec">
-        <div class="main-titile text-center question-text">
-            <h2 class="pb-0">Still have questions?</h2>
-            <p>Contact our support team for further assistance.</p>
-        </div>
-        <div class="question-div">
-            <img src="img/questions-bac.png" alt="">
-            <div class="row">
-                <div class="col-lg-6">
-                </div>
-                <div class="col-lg-6">
-                    <div class="text-start cont-boxx text-black">
-                        <p><i class="bi bi-globe text-white"></i> <a href="carrental@ezryder.com" class="text-decoration-none text-black">carrental@ezryder.com</a></p>
-                        <p><i class="bi bi-telephone-fill text-white"></i> <a href="" class="text-decoration-none text-black">+16475949220</a></p>
-                        <button class="btn cont-btn" type="submit">Contact <i class="bi bi-arrow-right"></i></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-    </section>
-
-    <!-- Still have questions? -->
-
 
     <!-- footer -->
     <footer>
@@ -940,7 +635,6 @@
     </footer>
     <!-- footer -->
 
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
@@ -965,35 +659,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
     <!-- portfolio -->
-
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('.image-popup-vertical-fit').magnificPopup({
-                type: 'image',
-                mainClass: 'mfp-with-zoom',
-                gallery: {
-                    enabled: true
-                },
-                image: {
-                    verticalFit: false
-                },
-
-                zoom: {
-                    enabled: true,
-
-                    duration: 300, // duration of the effect, in milliseconds
-                    easing: 'ease-in-out', // CSS transition easing function
-
-                    opener: function (openerElement) {
-
-                        return openerElement.is('img') ? openerElement : openerElement.find('img');
-                    }
-                }
-
-            });
-
-        });
-    </script>
 </body>
 
 </html>
